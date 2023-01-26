@@ -1146,3 +1146,9 @@ section {
     opacity: 1;
   }
   
+ /* translate */
+
+ .navbar a i{
+  font-size: 20px;
+  margin-right: 10px;
+}
