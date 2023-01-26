@@ -499,10 +499,14 @@
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
             <form
               action="forms/contact.php"
-              method="post"
               role="form"
               class="php-email-form"
+              name="car-submission-español"
+              method="POST"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
             >
+              <input style="display: none" name="bot-field" />
               <div class="row">
                 <h3>Información Del Contacto</h3>
                 <br />
