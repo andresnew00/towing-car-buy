@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-R6DWMJ6N7D"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-R6DWMJ6N7D");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,21 +50,15 @@
       rel="stylesheet"
     />
     <link href="assets/other/remixicon/remixicon.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
 
     <link href="assets/other/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- CSS -->
     <link href="assets/css/style.css" rel="stylesheet" />
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R6DWMJ6N7D"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-R6DWMJ6N7D');
-</script>
   </head>
   <body>
     <!--  Header  -->
@@ -75,7 +83,9 @@
               >
             </li>
             <li>
-              <li><a class="nav-link" href="/es/"><i class="fa fa-language"></i><strong>Español</strong></a></li>
+              <a class="nav-link" href="/es/"
+                ><i class="fa fa-language"></i><strong>Español</strong></a
+              >
             </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
